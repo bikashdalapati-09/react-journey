@@ -14,7 +14,7 @@ function App() {
 
           <button
             onClick={() => setColour("#FB2C36")}
-            className="w-16 h-16 rounded-full flex items-center justify-center text-white text-[10px] font-bold border border-white/40"
+            className="w-16 h-16 rounded-full flex items-center justify-center text-white text-[10px] font-bold border border-white/40 cursor-pointer"
             style={{ backgroundColor: "#FB2C36" }}
           >
             Red
@@ -22,7 +22,7 @@ function App() {
 
           <button
             onClick={() => setColour("#22C55E")}
-            className="w-16 h-16 rounded-full flex items-center justify-center text-white text-[10px] font-bold border border-white/40"
+            className="w-16 h-16 rounded-full flex items-center justify-center text-white text-[10px] font-bold border border-white/40 cursor-pointer"
             style={{ backgroundColor: "#22C55E" }}
           >
             Green
@@ -31,7 +31,7 @@ function App() {
 
           <button
             onClick={() => setColour("#3B82F6")}
-            className="w-16 h-16 rounded-full flex items-center justify-center text-white text-[10px] font-bold border border-white/40"
+            className="w-16 h-16 rounded-full flex items-center justify-center text-white text-[10px] font-bold border border-white/40 cursor-pointer"
             style={{ backgroundColor: "#3B82F6" }}
           >
             Blue
@@ -40,7 +40,7 @@ function App() {
 
           <button
             onClick={() => setColour("#FACC15")}
-            className="w-16 h-16 rounded-full flex items-center justify-center text-white text-[10px] font-bold border border-white/40"
+            className="w-16 h-16 rounded-full flex items-center justify-center text-white text-[10px] font-bold border border-white/40 cursor-pointer"
             style={{ backgroundColor: "#FACC15" }}
           >
             Yellow
@@ -49,7 +49,7 @@ function App() {
 
           <button
             onClick={() => setColour("#A855F7")}
-            className="w-16 h-16 rounded-full flex items-center justify-center text-white text-[10px] font-bold border border-white/40"
+            className="w-16 h-16 rounded-full flex items-center justify-center text-white text-[10px] font-bold border border-white/40 cursor-pointer"
             style={{ backgroundColor: "#A855F7" }}
           >
             Purple
@@ -58,7 +58,7 @@ function App() {
 
           <button
             onClick={() => setColour("#F97316")}
-            className="w-16 h-16 rounded-full flex items-center justify-center text-white text-[10px] font-bold border border-white/40"
+            className="w-16 h-16 rounded-full flex items-center justify-center text-white text-[10px] font-bold border border-white/40 cursor-pointer"
             style={{ backgroundColor: "#F97316" }}
           >
             Orange
@@ -67,7 +67,7 @@ function App() {
 
           <button
             onClick={() => setColour("#000000")}
-            className="w-16 h-16 rounded-full flex items-center justify-center text-white text-[10px] font-bold border border-white/40"
+            className="w-16 h-16 rounded-full flex items-center justify-center text-white text-[10px] font-bold border border-white/40 cursor-pointer"
             style={{ backgroundColor: "#000000" }}
           >
             Black
@@ -76,7 +76,7 @@ function App() {
 
           <button
             onClick={() => setColour("#FFFFFF")}
-            className="w-16 h-16 rounded-full flex items-center justify-center text-black text-[10px] font-bold border border-black/40"
+            className="w-16 h-16 rounded-full flex items-center justify-center text-black text-[10px] font-bold border border-black/40 cursor-pointer"
             style={{ backgroundColor: "#FFFFFF" }}
           >
             White
