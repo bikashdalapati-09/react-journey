@@ -88,10 +88,10 @@ function App() {
       <div>
         <input
         type='checkbox'
-        defaultChecked={number}
+        defaultChecked={character}
         id='characterInput'
         onChange={() => {
-          setNumber((prev) => !prev)
+          setCharacter((prev) => !prev)
         }}
         />
         <label htmlFor='characterInput'>Characters</label>
